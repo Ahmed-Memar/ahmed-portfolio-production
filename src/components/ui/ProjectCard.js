@@ -6,7 +6,7 @@ import Icon from "./Icon";
 function ProjectCard() {
   return (
     <div className="my-10">
-      <h2 className="shadow-md shadow-neutral-600/90 mb-10 title-green text-2xl text-center font-black py-4 sm:text-3xl rounded-md">Side Projects</h2>
+      <h2 className="shadow-md shadow-neutral-600/90 mb-10 title-green text-2xl text-center font-black py-4 sm:text-3xl rounded-md">Latest Projects</h2>
 
       <div className="grid gap-8 md:grid-cols-2">
         {

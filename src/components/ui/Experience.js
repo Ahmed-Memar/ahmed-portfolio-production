@@ -12,6 +12,7 @@ function  Experience() {
             <p className="text-pink-600 uppercase tracking-widest text-xs sm:text-sm">{item.date}</p>
             <p className="text-sky-600 uppercase tracking-widest text-semibold text-xs sm:text-sm">{item.company}</p>
             <h3 className="shadow-md shadow-inherit rounded-md mb-10 title-green text-sm text-center font-black p-2 sm:text-xl">{item.title}</h3>
+            {item.image && <img src={item.image} className="w-full h-auto rounded-md" />}
             <div className="text-sm sm:text-base">{item.desciption.map((ligne, index) => <p key={index}> {ligne} </p>)}</div>
             <p className="text-indigo-400 mt-4 text-sm sm:text-sm">{id === 0 ? "Technologies: " : "Subjects: "}{item.technologies}</p>
           </div>)

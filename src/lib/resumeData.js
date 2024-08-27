@@ -1,3 +1,5 @@
+import stageVNBIT from "/src/images/stage-VNB-IT.jpg";
+
 export const degreesData = [
     {
         year: "09/2024 - Present",
@@ -169,6 +171,7 @@ export const experiencesData = [
             "Deployed and configured network security solutions. ",
             "Managed user accounts and access policies."
         ],
+        image: stageVNBIT,
      },
 
     {
