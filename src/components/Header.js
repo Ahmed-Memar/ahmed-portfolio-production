@@ -15,7 +15,7 @@ function Header() {
   })
 
   return (
-    <header className="flex flex-col scroll-mt-24 md:gap-10 lg:gap-20 px-4 md:pl-2 sm:py-10 md:py-24 md:flex-row lg:justify-center lg:items-center" id="home">
+    <header className="flex flex-col scroll-mt-24 md:gap-10 lg:gap-20 px-4 md:pl-2 sm:py-2 md:py-2 md:flex-row lg:justify-center lg:items-center" id="home">
       <Image className="md:hidden mx-auto rounded-full ml-auto w-[270px] sm:w-[320px] sm:mr-0" src={userData.image}  alt={userData.name} />
       <div className="flex flex-col gap-4 md:w-1/2 min-[670px]:w-1/2 md:gap-10 md:mb-5  " >
       {/* start of heading */}
@@ -30,7 +30,7 @@ function Header() {
           </span>
         </h1>
 
-        <p className="text-pretty text-left text-sm sm:text-base md:text-lg">{userData.descriptionText}</p>
+        <p className="text-pretty text-left text-sm sm:text-base">{userData.descriptionText}</p>
         {/* end of heading */}
 
         {/* start of social media  */}
@@ -46,7 +46,7 @@ function Header() {
         </div>
       </div>
 
-      <Image className="hidden md:block md:w-1/2 md:rounded-full " src={userData.image}  alt={userData.name} />
+      <Image className="hidden md:block md:w-[40%] md:rounded-full " src={userData.image}  alt={userData.name} />
     </header>);
 }
 

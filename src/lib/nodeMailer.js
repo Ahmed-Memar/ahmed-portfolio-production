@@ -38,7 +38,7 @@ export const FrMail = ({name, email}) => ({
     Cordialement,
     <p>
       ${userData.name} <br style="margin-bottom:10px;"/>
-      <a href="https://ahmat-mahamat.vercel.app/">ahmat-mahamat.vercel.app</a> 
+      <a href="https://ahmed-portfolio-production.vercel.app/">Ahmed-Memar.vercel.app</a> 
       <br style="margin-bottom:10px;"/>
       ${process.env.MY_EMAIL} <br style="margin-bottom:10px;"/>
       ${userData.phoneNumber} <br style="margin-bottom:10px;"/>
@@ -61,7 +61,7 @@ export const EnglishMail = ({name, email}) => ({
     Best regards,
     <p>
       ${userData.name} <br style="margin-bottom:10px;"/>
-      <a href="https://ahmat-mahamat.vercel.app/">ahmat-mahamat.vercel.app</a> 
+      <a href="https://ahmed-portfolio-production.vercel.app/">Ahmed-Memar.vercel.app</a> 
       <br style="margin-bottom:10px;"/>
       ${process.env.MY_EMAIL} <br style="margin-bottom:10px;"/>
       ${userData.phoneNumber} <br style="margin-bottom:10px;"/>

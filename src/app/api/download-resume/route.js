@@ -8,7 +8,7 @@ export async function GET() {
   // set the headers to tell the browser to download the file
   const headers = new Headers();
   // remember to change the filename `test.pdf` to whatever you want the downloaded file called
-  headers.append("Content-Disposition", 'attachment; filename="Ahmat-resume.pdf"');
+  headers.append("Content-Disposition", 'attachment; filename="Ahmed-resume.pdf"');
   headers.append("Content-Type", "application/pdf");
 
   return new Response(buffer, {

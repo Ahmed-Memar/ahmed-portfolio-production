@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({ subsets: ["latin"], weight:['400','700','900'] });
 
 export const metadata = {
-  title: "Ahmat's portfolio",
-  description: "Ahmat's portfolio developed by NextJs",
+  title: "Ahmed's portfolio",
+  description: "Ahmed's portfolio developed by NextJs",
 };
 
 export default function RootLayout({ children }) {

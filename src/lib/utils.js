@@ -27,21 +27,21 @@ export const links = [
 // social media
 export const media = [
     {
-        "name": "Github",
-        "url": "https://github.com/Ahmat-2000", // change it to your Github profile link
-        "show": true, // turn it to false if you don't have Github
-        'icon' : <FaGithub fill="black"/>
-    },
-    {
         "name": "Linkedin",
-        "url": "https://www.linkedin.com/in/ahmat-mahamat", // change it to your Linkedin profile link
+        "url": "https://www.linkedin.com/in/ahmed-memar-b0b060296/", // change it to your Linkedin profile link
         "show": true, // turn it to false if you don't have Linkedin
         "icon" : <FaLinkedin className="rounded-full" fill="black"/>
     },
     {
+        "name": "Github",
+        "url": "https://github.com/Ahmed-Memar", // change it to your Github profile link
+        "show": true, // turn it to false if you don't have Github
+        'icon' : <FaGithub fill="black"/>
+    },
+    {
         "name": "Twitter",
-        "url": "https://x.com/Ahmat_2000", // change it to your Twitter profile link
-        "show": true, // turn it to false if you don't have Twitter
+        "url": "", // change it to your Twitter profile link
+        "show": false, // turn it to false if you don't have Twitter
         "icon" : <FaTwitter fill="black"  />
     },
     {
@@ -60,16 +60,16 @@ export const media = [
 
 // update this variable with your data
 export const userData = {
-    name: "AHMAT",
+    name: "AHMED",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
-    profession: ['Freelancer', 'Developer', 'Pentester'],
-    descriptionText :"As a dedicated, self-taught programmer currently pursuing my studies, I am passionate about cybersecurity and eager to apply my skills in a professional setting. I am looking for a 6-month internship opportunity where I can further develop my expertise and contribute significantly to a dynamic team.",
-    phoneNumber : "+33 7 51 01 85 42",
-    email : "ahmatmhtlouky@gmail.com",
-    adress : "2 Bd Maréchal Juin, 14000 Caen, France",
+    profession: ['Cybersecurity Specialist', 'System Administrator', 'Web Developer'],
+    descriptionText :"I have solid experience in system and network administration, as well as in cybersecurity and web development. I am seeking a 6-month internship to further develop my skills and contribute effectively to a dynamic team.",
+    phoneNumber : "+33 6 01 34 38 07",
+    email : "Ahmadmeamar7@gmail.com",
+    adress : "Caen 14000, France",
 }
 // your professions
-export const wordToType = ['Freelancer', 'Developer', 'Pentester'];
+export const wordToType = ['System Administrator', 'Cybersecurity Specialist', 'Web Developer'];
 
 // description
 export const descriptionText = "I am a self-taught programmer and passionate about cybersecurity.";

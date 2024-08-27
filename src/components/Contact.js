@@ -104,7 +104,7 @@ function Contact() {
             {isSubmitting ? (<LoadingSpin text="Sending..."/>) : 
               !captchaValue ? 
               <>
-                Solve The Captcha <span className="ml-2 text-xl">🥱</span>
+                Send your message <span className="ml-2 text-xl"></span>
               </>
               : "Send me your message"
             } 
