@@ -2,6 +2,8 @@ import { projectsData } from "@/lib/resumeData";
 import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Icon from "./Icon";
+import { skillsImage } from "@/lib/skillsImage";
+import Image from "next/image";
 
 function ProjectCard() {
   return (
@@ -17,6 +19,19 @@ function ProjectCard() {
             <h3 className="shadow-md shadow-inherit mt-5 mb-10 title-green text-sm text-center font-black p-2 sm:text-xl rounded-md">{item.title}</h3>
             <p className="text-sm sm:text-base">{item.desciption}</p>
             <p className="mt-5 text-sm text-indigo-400 sm:text-base">Technologies: {item.technologies}</p>
+            <div className="flex flex-wrap gap-3 mt-5">
+                {item.skills && item.skills.map((skill, index) => (
+                  <div key={index} className="h-8 w-8 sm:h-10 sm:w-10">
+                    <Image
+                      src={skillsImage(skill)?.src}
+                      alt={skill}
+                      width={40}
+                      height={40}
+                      className="h-full w-auto rounded-lg"
+                    />
+                  </div>
+                ))}
+              </div>
           </div>)
         })
         }
