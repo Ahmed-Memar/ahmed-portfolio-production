@@ -15,14 +15,14 @@ function Header() {
   })
 
   return (
-    <header className="flex flex-col scroll-mt-24 md:gap-10 lg:gap-20 px-4 md:pl-2 sm:py-2 md:py-2 md:flex-row lg:justify-center lg:items-center" id="home">
+    <header className="flex flex-col scroll-mt-24 md:gap-10 lg:gap-20 px-4 md:px-0 sm:py-2 md:py-2 md:flex-row lg:justify-center lg:items-center" id="home">
       <Image className="md:hidden mx-auto rounded-full ml-auto w-[270px] sm:w-[320px] sm:mr-0" src={userData.image}  alt={userData.name} />
       <div className="flex flex-col gap-4 md:w-1/2 min-[670px]:w-1/2 md:gap-10 md:mb-5  " >
       {/* start of heading */}
         <h1 className="font-semibold text-3xl min-[505px]:text-4xl lg:text-5xl ">Hello,<br className="mb-1 "/> This is
           <span className="text-green-600 ">{` ${userData.name}`}</span>
           <br className="sm:mb-2"/>
-          <span className="text-2xl sm:text-3xl">
+          <span className="text-lg text-nowrap sm:text-2xl md:text-3xl">
             <span> I’m a </span>
             <span className="">
               <b className="text-pink-600">{text}</b>
@@ -46,7 +46,7 @@ function Header() {
         </div>
       </div>
 
-      <Image className="hidden md:block md:w-[40%] md:rounded-full " src={userData.image}  alt={userData.name} />
+      <Image className="hidden md:block w-[450px] h-[450px] md:rounded-full " src={userData.image}  alt={userData.name} />
     </header>);
 }
 

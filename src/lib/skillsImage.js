@@ -17,9 +17,7 @@ import css from '/public/svg/skills/css.svg';
 import dart from '/public/svg/skills/dart.svg';
 import deno from '/public/svg/skills/deno.svg';
 import django from '/public/svg/skills/django.svg';
-
 import docker from '/public/svg/skills/docker.svg';
-
 import fastify from '/public/svg/skills/fastify.svg';
 import figma from '/public/svg/skills/figma.svg';
 import firebase from '/public/svg/skills/firebase.svg';
@@ -74,6 +72,7 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+
 
 
 export const skillsImage = (skill) => {
