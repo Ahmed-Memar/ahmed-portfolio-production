@@ -117,10 +117,10 @@ function Contact() {
                 <Icon><MdAlternateEmail fill="black"/></Icon>
                 <span className="">{userData.email}</span>
               </div>
-              <div className="flex gap-3 items-center">
+              {/* <div className="flex gap-3 items-center">
                 <Icon><MdOutlinePhoneInTalk fill="black"/></Icon>
                 <span className="">{userData.phoneNumber}</span>
-              </div>
+              </div> */}
               <div className="flex gap-3 items-center">
                 <Icon><FaLocationDot fill="black"/></Icon>
                 <span className="">{userData.adress}</span>

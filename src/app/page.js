@@ -7,11 +7,11 @@ import Resume from "@/components/Resume";
 export default function Home() {
   return (
     <>
-      <Header />
-      <Features />
-      <Resume />
-      <Services />
-      <Contact />
+      <Header id="home" />
+      <Features id="features" />
+      <Resume id="resume" />
+      <Services id="services" />
+      <Contact id="contact" />
     </>
   );
 }

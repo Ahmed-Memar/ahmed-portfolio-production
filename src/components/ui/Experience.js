@@ -9,9 +9,9 @@ function  Experience() {
         {
         experiencesData.map((item,id) => {
           return (
-          <div key={id} className="shadow-md shadow-gray-600/90 py-10 px-3 flex items-center justify-center flex-col gap-2 rounded-2xl hover:scale-100 hover:shadow-sky-800 hover: md:scale-95 transition-transform duration-1000 ">
+          <div key={id} className="shadow-md shadow-neutral-600/90 py-5 px-3 gap-2 rounded-2xl hover:scale-100 hover:shadow-sky-800 hover: md:scale-95 transition-transform duration-1000">
             
-            <h3 className="shadow-md shadow-inherit rounded-md mb-5 title-green text-sm text-center font-black p-2 sm:text-xl">{item.title}</h3>
+            <h3 className="shadow-md shadow-inherit mt-5 mb-10 title-green text-sm text-center font-black p-2 sm:text-xl rounded-md">{item.title}</h3>
             <p className="text-pink-600 uppercase tracking-widest text-xs sm:text-sm text-center">{item.date}</p>
             <p className="text-sky-600 uppercase tracking-widest text-semibold text-xs sm:text-sm text-center">{item.company}</p>
             {item.image && <Image src={item.image.url} alt={item.image.title} width={400} height={300} className="mx-auto rounded-xl shadow-md shadow-slate-600 items-center"  /> }
