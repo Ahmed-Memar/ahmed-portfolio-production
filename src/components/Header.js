@@ -15,7 +15,7 @@ function Header() {
   })
 
   return (
-    <header className="flex flex-col scroll-mt-24 md:gap-10 lg:gap-20 px-4 md:px-0 sm:py-2 md:py-2 md:flex-row lg:justify-center lg:items-center" id="home">
+    <header className="flex flex-col scroll-mt-24 md:gap-10 lg:gap-20 px-4 md:px-0 sm:py-2 md:py-2 md:flex-row lg:justify-center lg:mt-12 lg:items-center" id="home">
       <Image className="md:hidden mx-auto rounded-full ml-auto w-[270px] sm:w-[320px] sm:mr-0" src={userData.image}  alt={userData.name} />
       <div className="flex flex-col gap-4 md:w-1/2 min-[670px]:w-1/2 md:gap-10 md:mb-5  " >
       {/* start of heading */}

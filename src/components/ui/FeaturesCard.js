@@ -1,12 +1,26 @@
-import React from 'react'
+"use client";
 
-function FeaturesCard({title,body}) {
+import React, { useEffect, useState } from 'react';
+
+function FeaturesCard({ title, body }) {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    // Simule un délai pour déclencher l'animation lors du montage
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 100); // tu peux ajuster le délai ici
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="flex flex-col gap-5 shadow-md shadow-gray-600/90 p-3 rounded-2xl hover:scale-100 hover:shadow-sky-800 hover: md:scale-95 transition-transform duration-1000">
-        <h3 className="title-green font-black rounded-md shadow-md shadow-inherit text-center text-2xl py-2 sm:text-3xl">{title}</h3>
-        <p className="text-sm sm:text-base leading-relaxed p-3">{body}</p>
+    <div className={`flex flex-col gap-5 shadow-md shadow-gray-600/90 p-3 rounded-2xl 
+      hover:scale-100 hover:shadow-sky-800 hover:md:scale-95 transition-transform duration-1000 
+      ${isVisible ? 'animate-slide-in-bottom' : ''}`}>
+      <h3 className="title-green font-black rounded-md shadow-md shadow-inherit text-center text-2xl py-2 sm:text-3xl">{title}</h3>
+      <p className="text-sm sm:text-base leading-relaxed p-3">{body}</p>
     </div>
-  )
+  );
 }
 
-export default FeaturesCard
+export default FeaturesCard;
