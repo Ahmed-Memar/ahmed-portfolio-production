@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({ subsets: ["latin"], weight:['400','700','900'] });
 
 export const metadata = {
-  title: "Ahmed Memar cybersecurity Specialist",
+  title: "Ahmed Memar Cybersecurity Specialist",
   description: "Ahmed's portfolio developed by NextJs",
 };
 
