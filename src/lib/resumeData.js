@@ -129,6 +129,12 @@ export const skillsData = [
 export const projectsData = [
     
     {
+        title: "Blockchain Application Development with Smart Contract",
+        technologies: "JavaScript, python",
+        desciption : "Development of a blockchain-based application featuring a smart contract to automate management processes and execute transactions. This project highlights the use of smart contracts to ensure transparency and security in transactions.",
+        skills: ["python", "javascript"],
+    },
+    {
         title: "DDoS Attack Simulator",
         technologies: "Docker, hping3, slowloris, nginx, apache",
         desciption : "Study and simulation of DDoS attacks on web servers. This simulator is designed to analyze the effects of DDoS attacks on server infrastructure and demonstrate the importance of robust defense mechanisms.",
@@ -152,12 +158,7 @@ export const projectsData = [
         desciption : "My portfolio showcases my projects and skills with a clean design using React and Next.js. It features Tailwind CSS for styling, NodeMailer for form submissions, and Google Captcha API for security.",
         skills: ["React", "Next JS", "Tailwind"],
     },
-    {
-        title: "Painting Application",
-        technologies: "Java",
-        desciption : "Development of a painting application that allows users to create and manipulate shapes. This project implements various programming concepts and uses Java to provide an intuitive user interface.",
-        skills: ["Java"],
-    },
+    
     {
         title: "Computer Vision",
         technologies: "Python, Jupyter Notebook, AI",

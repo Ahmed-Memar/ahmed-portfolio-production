@@ -30,7 +30,8 @@ function Header() {
           </span>
         </h1>
 
-        <p className="text-pretty text-left text-sm sm:text-base">{userData.descriptionText}</p>
+        <p className="text-pretty text-left text-sm sm:text-base whitespace-pre-line">{userData.descriptionText}</p>
+
         {/* end of heading */}
 
         {/* start of social media  */}

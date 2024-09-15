@@ -63,11 +63,12 @@ export const userData = {
     name: "AHMED",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
     profession: ['Cybersecurity Specialist', 'System Administrator', 'Web Developer'],
-    descriptionText :"I have solid experience in system and network administration, as well as in cybersecurity and web development. I am seeking a 6-month internship to further develop my skills and contribute effectively to a dynamic team.",
+    descriptionText: `As a dedicated, self-taught programmer currently pursuing my studies, I am passionate about cybersecurity and eager to apply my skills in a professional setting.\n\nI am seeking a 6-month internship in cybersecurity, network engineering, or systems administration starting in March, where I can further develop my expertise and contribute significantly to a dynamic team.`,
     phoneNumber : "+33 6 01 34 38 07",
     email : "Ahmadmeamar7@gmail.com",
     adress : "Caen 14000, France",
 }
+
 // your professions
 export const wordToType = ['System Administrator', 'Cybersecurity Specialist', 'Web Developer'];
 

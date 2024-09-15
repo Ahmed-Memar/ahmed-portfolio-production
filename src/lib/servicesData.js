@@ -10,13 +10,13 @@ export const servicesData = [
     ],
   },
   {
-    title: "Operating System Installation and Technical Troubleshooting",
+    title: "System Installation, Troubleshooting, and Security Assurance",
     description: "Need to install Linux or Windows on your computer or resolve technical issues on your laptop? I provide professional installation services for Linux and Windows systems, as well as solutions for technical problems.",
     stack: [
-      "Install Linux (Ubuntu, Debian)",
-      "Install Windows (10, 11)",
-      "Install Apps and Services",
-      "Troubleshoot Laptop Technical Issues"
+      "OS Installation: Linux (Ubuntu, Debian), Windows (10, 11)",
+      "Application & Website Security: Assess and enhance security",
+      "Network Security: Implement robust measures",
+      "Technical Troubleshooting: Resolve device issues"
     ],
   },
 ];

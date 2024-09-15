@@ -48,8 +48,9 @@ function ServicesCard() {
               data-index={id}
               ref={(el) => (cardsRef.current[id] = el)}
               className={`rounded-xl shadow-md shadow-neutral-600/90 py-5 px-3 flex flex-col justify-between gap-2 
-                hover:scale-100 hover:shadow-sky-800 hover:md:scale-95 transition-transform 
-                duration-1000 ${visibleCards[id] ? 'animate-slide-in-right-to-left' : 'opacity-0'}`}
+                transform transition-transform duration-500 
+                ${visibleCards[id] ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} 
+                hover:scale-105 hover:shadow-sky-800`}
             >
               <div>
                 <h3 className="rounded-md shadow-md shadow-inherit mt-5 mb-10 title-green text-sm text-center font-black p-2 sm:text-xl">
@@ -70,7 +71,10 @@ function ServicesCard() {
                 </ul>
               </div>
               {item?.contact ? (
-                <Link className="block text-center max-w-max mx-auto bg-pink-600 px-5 p-2 rounded-lg" href="#contact">
+                <Link
+                  className="block text-center max-w-max mx-auto bg-pink-600 px-5 p-2 rounded-lg"
+                  href="#contact"
+                >
                   {item.price}
                 </Link>
               ) : (
