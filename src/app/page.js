@@ -7,7 +7,7 @@ import Resume from "@/components/Resume";
 export default function Home() {
   return (
     <>
-      <Header id="home" />
+      <section id="home"> <Header/> </section>
       <Features id="features" />
       <Resume id="resume" />
       <Services id="services" />
