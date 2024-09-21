@@ -22,7 +22,7 @@ function Experience() {
         });
       },
       {
-        threshold: 0.1,
+        threshold: 0.01,
       }
     );
 
