@@ -63,14 +63,14 @@ export const userData = {
     name: "AHMED",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
     profession: ['Cybersecurity Specialist', 'System Administrator', 'Web Developer'],
-    descriptionText: `As a dedicated, self-taught programmer currently pursuing my studies, I am passionate about cybersecurity and eager to apply my skills in a professional setting.\n\nI am seeking a 6-month internship in cybersecurity, network engineering, or systems administration starting in March, where I can further develop my expertise and contribute significantly to a dynamic team.`,
+    descriptionText: `Master's student in Cybersecurity, with expertise in vulnerability analysis, infrastructure monitoring, and implementation of protection measures. Experienced in network engineering (network management, VPNs, firewalls) and system administration (Windows/Linux servers, virtualization).\n\nI am seeking a 6-month internship in cybersecurity, network engineering, or systems administration starting in March, where I can further develop my expertise and contribute significantly to a dynamic team.`,
     phoneNumber : "+33 6 01 34 38 07",
     email : "Ahmadmeamar7@gmail.com",
     adress : "Caen 14000, France",
 }
 
 // your professions
-export const wordToType = ['System Administrator', 'Cybersecurity Specialist', 'Web Developer'];
+export const wordToType = ['System Administrator', 'Cybersecurity Specialist', 'Network Engineering'];
 
 // description
 export const descriptionText = "I am a self-taught programmer and passionate about cybersecurity.";
