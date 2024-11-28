@@ -23,7 +23,8 @@ function Header() {
           <span className="text-green-600 ">{` ${userData.name}`}</span>
           <br className="sm:mb-2"/>
           <span className="text-lg text-nowrap sm:text-2xl md:text-3xl">
-            <span> I’m a </span>
+            <span> I have proven skills in </span>
+            <br />
             <span className="">
               <b className="text-pink-600">{text}</b>
             </span>
