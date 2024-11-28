@@ -62,7 +62,7 @@ export const media = [
 export const userData = {
     name: "AHMED",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
-    profession: ['Cybersecurity Specialist', 'System Administrator', 'Web Developer'],
+    profession: ['Cybersecurity Specialist', 'System Administrator', 'Network Engineering'],
     descriptionText: `Master's student in Cybersecurity, with expertise in vulnerability analysis, infrastructure monitoring, and implementation of protection measures. Experienced in network engineering (network management, VPNs, firewalls) and system administration (Windows/Linux servers, virtualization).\n\nI am seeking a 6-month internship in cybersecurity, network engineering, or systems administration starting in March, where I can further develop my expertise and contribute significantly to a dynamic team.`,
     phoneNumber : "+33 6 01 34 38 07",
     email : "Ahmadmeamar7@gmail.com",
