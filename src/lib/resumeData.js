@@ -176,8 +176,8 @@ export const experiencesData = [
         technologies: "GPO, Active Directory, Hyper-V/Proxmox Virtualization.",
         desciption : [
             "Administered and maintained Windows and Linux servers. ",
-            "Deployed and configured network security solutions. ",
-            "Managed user accounts and access policies."
+            "Technical support for employees and user account management. ",
+            "Implementation and deployment of 3 security projects (WSUS, OpenVAS, and ClamAV)."
         ],
         image: {
             title: "stageVNBIT",
@@ -191,9 +191,9 @@ export const experiencesData = [
         date: "09/2022 - 08/2022 (6 months)",
         technologies: "Firewall, VPN, virtual IPs, Cisco Packet Tracer",
         desciption : [
-            "Designed and deployed secure networks for enterprises. ",
-            "Analyzed security logs to detect and prevent incidents. ",
-            "Implemented and managed firewalls and VPNs."
+            "Management of network infrastructure (routers, switches, firewalls, VPN).",
+            "Security log analysis to detect and prevent incidents.",
+            "Security auditing: Identifying vulnerabilities and applying solutions."
         ],
         image: {
             title: "stagCNS",
@@ -206,9 +206,9 @@ export const experiencesData = [
         date: "05/2021 - 08/2021 (4 months)",
         technologies: "cabling, Mapping, Wi-Fi design, IOT, VoIP",
         desciption : [
-            "Installed home automation systems for residential services. ",
-            "Configured telecom networks to enhance connectivity. ",
-            "Worked on DSL and ADSL cable systems." 
+            "Analyse et sécurisation des infrastructures de télécommunication.",
+            "Surveillance des réseaux télécoms pour menaces.",
+            "Documentation des procédures de sécurité." 
         ],
         image: null,
     },
