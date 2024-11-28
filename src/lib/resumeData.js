@@ -173,11 +173,11 @@ export const experiencesData = [
         title: "System and Network Security Administrator",
         company: "VNB-IT, Ile-de-France",
         date: "06/2024 - 07/2024 (2 months)",
-        technologies: "GPO, Active Directory, Hyper-V/Proxmox Virtualization.",
+        technologies: "Active Directory, Virtualization(Proxmox), Grafana.",
         desciption : [
             "Administered and maintained Windows and Linux servers. ",
             "Technical support for employees and user account management. ",
-            "Implementation and deployment of 3 security projects (WSUS, OpenVAS, and ClamAV)."
+            "Implementation and deployment of 3 security projects."
         ],
         image: {
             title: "stageVNBIT",
@@ -189,11 +189,11 @@ export const experiencesData = [
         title: "Network and Security Engineer",
         company: "CNS, part of the multinational ICC group",
         date: "09/2022 - 08/2022 (6 months)",
-        technologies: "Firewall, VPN, virtual IPs, Cisco Packet Tracer",
+        technologies: "Firewall, VPN, ,Vlan, OpenVAS, Wireshark, ",
         desciption : [
-            "Management of network infrastructure (routers, switches, firewalls, VPN).",
+            "Management of network infrastructure (routers, firewalls, VPN...).",
             "Security log analysis to detect and prevent incidents.",
-            "Security auditing: Identifying vulnerabilities and applying solutions."
+            "Identifying vulnerabilities and applying solutions."
         ],
         image: {
             title: "stagCNS",
@@ -204,7 +204,7 @@ export const experiencesData = [
         title: "Assistant Engineer in Telecommunications and Home Automation",
         company: "OGERO, Lebanese Ministry of Telecommunications",
         date: "05/2021 - 08/2021 (4 months)",
-        technologies: "cabling, Mapping, Wi-Fi design, IOT, VoIP",
+        technologies: "Mapping, DSL/ADSL, Fiber Optics, Wi-Fi",
         desciption : [
             "Analyse et sécurisation des infrastructures de télécommunication.",
             "Surveillance des réseaux télécoms pour menaces.",
@@ -216,7 +216,7 @@ export const experiencesData = [
         title: "Freelance Web Developer",
         company: "Self-employed",
         date: "08/2022 - Present",
-        technologies: "Développement web personnalisé., Gestion de projets en autonomie.",
+        technologies: "SSL/TLS, Captcha, WooCommerce, Hostinger, WordPress",
         desciption : [
             "Created websites and online stores for various clients. ",
             "Developed custom web solutions to meet client needs. ",
