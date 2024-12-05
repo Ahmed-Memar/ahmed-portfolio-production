@@ -129,10 +129,10 @@ export const skillsData = [
 export const projectsData = [
     
     {
-        title: "Blockchain Application Development with Smart Contract",
-        technologies: "JavaScript, python",
-        desciption : "Development of a blockchain-based application featuring a smart contract to automate management processes and execute transactions. This project highlights the use of smart contracts to ensure transparency and security in transactions.",
-        skills: ["python", "javascript"],
+        title: "DApp Blockchain Ethereum",
+        technologies: "Next.js, Solidity, Ethereum",
+        desciption : "Création d'une application décentralisée (DApp) sur la blockchain Ethereum. Développement de smart contracts en Solidity et intégration avec une interface Next.js pour fournir des services sécurisés et transparents basés sur la blockchain.",
+        skills: ["Next JS"],
     },
     {
         title: "DDoS Attack Simulator",
